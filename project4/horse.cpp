@@ -3,9 +3,9 @@
 
 // horse
 horse::horse() : position(0), index(0), trackLength(0) {}
-void horse::init(int idx, int trackLen) {
-    index = idx;
-    trackLength = trackLen;
+void horse::init(int num, int track) {
+    index = num;
+    trackLength = track;
     position = 0;
 }
 void horse::advance() {
